@@ -1,0 +1,270 @@
+.firstBlockWrap {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: #0c0c0c;
+  overflow: hidden;
+  position: relative;
+}
+.datFirst {
+  position: absolute;
+  top: 0;
+  left: 50.6%;
+}
+.datSecond {
+  position: absolute;
+  top: 0;
+  right: 50.6%;
+}
+.wrapFirstInServ {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 20;
+  margin-top: 150px;
+}
+.wrapFirstInServAsk {
+  width: 90%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 20;
+}
+.h1ServOffer {
+  color: #fff;
+  margin: 0;
+  font-family: "Futura PT";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.wrapContact {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.blockCssServ {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 367px;
+  height: 329px;
+
+  background: #0c0c0c;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 4px 0px rgba(141, 141, 141, 0.31);
+  padding: 40px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+.sitcaSt {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.asdf {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  overflow: visible;
+  z-index: 10;
+  top: -22.5px;
+  left: 30px;
+}
+.wrapAllD {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.contactInFooter {
+  width: 252px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  z-index: 10;
+}
+.mainInFoorteP {
+  color: #c3c3c3;
+
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  text-transform: uppercase;
+}
+.mainInFoortePFlf {
+  color: #c3c3c3;
+
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 16px;
+}
+.wrapAddresWithIcon {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapWew {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.iconStyleF {
+  margin-right: 8px;
+}
+.phonelLS {
+  color: #c3c3c3;
+
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  margin: 0;
+  margin-bottom: 8px;
+}
+.phoneWhite {
+  margin: 0;
+  color: #fff;
+
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+}
+.mapOp {
+  background: url("../../img/uaCqa.png");
+  width: 665px;
+  height: 472.625px;
+  position: relative;
+}
+.mapPin {
+  position: absolute;
+  top: 27%;
+  left: 80px;
+}
+@media only screen and (max-width: 479px) and (min-width: 300px) {
+  .wrapFirstInServ {
+    width: 96%;
+  }
+  .wrapContact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  .mapOp {
+    display: none;
+  }
+  .blockCssServ {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 329px;
+
+    background: #0c0c0c;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 4px 0px rgba(141, 141, 141, 0.31);
+    padding: 40px;
+    margin-bottom: 40px;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 700px) and (min-width: 479px) {
+  .wrapFirstInServ {
+    width: 96%;
+  }
+  .wrapContact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  .mapOp {
+    background: url("../../img/uaCqa.png") no-repeat center center;
+    background-size: contain; /* або use 'contain' замість 'cover', в залежності від вашого випадку */
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-bottom: 100px;
+  }
+  .mapPin {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 960px) and (min-width: 700px) {
+  .wrapFirstInServ {
+    width: 96%;
+  }
+  .wrapContact {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+  .mapOp {
+    background: url("../../img/uaCqa.png") no-repeat center center;
+    background-size: contain; /* або use 'contain' замість 'cover', в залежності від вашого випадку */
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-bottom: 100px;
+  }
+  .mapPin {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 960px) {
+  .mapOp {
+    background: url("../../img/uaCqa.png") no-repeat center center;
+    background-size: contain; /* або use 'contain' замість 'cover', в залежності від вашого випадку */
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-bottom: 100px;
+  }
+  .mapPin {
+    display: none;
+  }
+}

@@ -1,0 +1,555 @@
+.firtBlockAbout {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0c0c0c;
+}
+.blockInFirst {
+  margin-top: 200px;
+  background: url("../../img/dsqwer.png");
+  width: 1140px;
+  height: 366px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.advantageWr {
+  width: 560px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 48px;
+}
+.advantTitleM {
+  color: #fff;
+
+  font-family: "Futura PT";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 40px;
+}
+.advantDescriptM {
+  color: #c3c3c3;
+
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.firstImageSt {
+  width: 466px;
+  height: 466px;
+  transform: rotate(85deg);
+}
+.secondWrap {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: #0c0c0c;
+  overflow: hidden;
+  position: relative;
+}
+.wrapTwoBlockInfo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 10;
+  margin-top: 100px;
+}
+.oneBlockWrapd {
+  width: calc(463px - 48px);
+  height: calc(415px - 48px);
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: #161616;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.blockKvadratWWrap {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kvadratWhite {
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  margin-right: 12px;
+}
+.greyDescUt {
+  color: #c3c3c3;
+
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  text-transform: uppercase;
+  margin: 0;
+}
+.desctInSerd {
+  color: #c3c3c3;
+
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0;
+  margin-top: 24px;
+}
+.datFirst {
+  position: absolute;
+  top: 0;
+  left: 50.6%;
+}
+.datSecond {
+  position: absolute;
+  top: 0;
+  right: 50.6%;
+}
+.kubSt {
+  width: 474.324px;
+  height: 474.331px;
+  position: absolute;
+  top: 300px;
+}
+.ourGoalWrap {
+  width: 100%;
+  height: auto;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  align-items: center;
+  margin-bottom: 120px;
+}
+.secondPGoal {
+  margin: 0;
+  color: #fff;
+  margin-bottom: 64px;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.goalPDecsription {
+  width: 780px;
+  color: #6d6d6d;
+  margin: 0;
+  margin-bottom: 64px;
+  text-align: center;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+.wrapGoalList {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+}
+.oneBlockInGolaB {
+  width: calc(270px);
+  height: calc(288px);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  background: #161616;
+}
+.blockDescritpionsBel {
+  color: #c3c3c3;
+  margin: 0;
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.iconInNumber {
+  position: absolute;
+  top: -16.5px;
+  left: calc(50% - 21.5px);
+}
+.firstLineIn {
+  position: absolute;
+  top: 100px;
+  z-index: -1;
+}
+.wrapWhoWillWork {
+  background: url("../../img/backgroundFon.webp") no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  width: 1144px;
+  height: 522px;
+  object-fit: contain;
+  z-index: 20;
+  border-radius: 20px;
+  padding: 49px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+.firstWrapInWill {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.h4WillWork {
+  color: #fff;
+  margin: 0;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 49px;
+  width: 222px;
+}
+.pWillWorkWdf {
+  margin: 0;
+  color: rgb(155, 153, 153);
+  width: 317px;
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+.wrapWillWorkFour {
+  width: 607px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.oneWillWorkL {
+  width: 286px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.mainWillWithIconWrP {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.willWorkIconsd {
+  margin-right: 16px;
+}
+.pIndWillWorkMain {
+  margin: 0;
+  color: #fff;
+
+  font-family: "Futura PT";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.pIndWillWorkMainSA {
+  color: #c3c3c3;
+
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+@media only screen and (max-width: 479px) and (min-width: 300px) {
+  .blockInFirst {
+    margin-top: 200px;
+    background: none;
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .advantageWr {
+    width: 97%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0px;
+  }
+  .wrapTwoBlockInfo {
+    flex-direction: column;
+  }
+  .oneBlockWrapd {
+    width: calc(99% - 48px);
+    height: auto;
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: #161616;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  .kubSt {
+    width: 474.324px;
+    height: 474.331px;
+    position: absolute;
+    top: 800px;
+  }
+  .goalPDecsription {
+    width: 97%;
+  }
+  .oneBlockInGolaB {
+    width: calc(270px);
+    height: auto;
+    margin-top: 35px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    background: #161616;
+  }
+  .wrapWhoWillWork {
+    background: none;
+    background-size: cover;
+    background-position: center;
+    width: calc(99% - 20px);
+    height: auto;
+    object-fit: contain;
+    z-index: 20;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 120px;
+  }
+  .wrapWillWorkFour {
+    width: 98%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .oneWillWorkL {
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 700px) and (min-width: 479px) {
+  .blockInFirst {
+    margin-top: 200px;
+    background: none;
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .advantageWr {
+    width: 97%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0px;
+  }
+  .wrapTwoBlockInfo {
+    flex-direction: column;
+  }
+  .oneBlockWrapd {
+    width: calc(99% - 48px);
+    height: auto;
+    padding: 24px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: #161616;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  .kubSt {
+    width: 474.324px;
+    height: 474.331px;
+    position: absolute;
+    top: 800px;
+  }
+  .goalPDecsription {
+    width: 97%;
+  }
+  .oneBlockInGolaB {
+    width: calc(270px);
+    height: auto;
+    margin-top: 35px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    background: #161616;
+  }
+  .wrapWhoWillWork {
+    background: none;
+    background-size: cover;
+    background-position: center;
+    width: calc(99% - 20px);
+    height: auto;
+    object-fit: contain;
+    z-index: 20;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 120px;
+  }
+  .wrapWillWorkFour {
+    width: 98%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .oneWillWorkL {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 960px) and (min-width: 700px) {
+  .blockInFirst {
+    margin-top: 200px;
+    background: none;
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .advantageWr {
+    width: 97%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0px;
+  }
+  .wrapTwoBlockInfo {
+    flex-direction: column;
+  }
+  .oneBlockWrapd {
+    margin-bottom: 20px;
+  }
+  .kubSt {
+    width: 474.324px;
+    height: 474.331px;
+    position: absolute;
+    top: 800px;
+  }
+  .goalPDecsription {
+    width: 97%;
+  }
+  .oneBlockInGolaB {
+    margin-top: 35px;
+  }
+  .wrapWhoWillWork {
+    background: none;
+    background-size: cover;
+    background-position: center;
+    width: calc(99% - 20px);
+    height: auto;
+    object-fit: contain;
+    z-index: 20;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 120px;
+  }
+  .wrapWillWorkFour {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 960px) {
+  .blockInFirst {
+    margin-top: 200px;
+    background: url("../../img/dsqwer.png");
+    width: 955px;
+    height: 366px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .oneBlockInGolaB {
+    margin-top: 35px;
+  }
+  .wrapWhoWillWork {
+    background: url("../../img/backgroundFon.webp") no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    width: 955px;
+    height: auto;
+    object-fit: contain;
+    z-index: 20;
+    border-radius: 20px;
+    padding: 49px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 120px;
+  }
+}
