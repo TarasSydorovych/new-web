@@ -933,6 +933,91 @@
   margin-bottom: 50px;
 }
 @media only screen and (max-width: 479px) and (min-width: 300px) {
+  .buttonSendMeQW {
+    width: 97%;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px solid #d3d3d3;
+
+    background: #d3d3d3;
+    color: #3d3d3d;
+    cursor: pointer;
+    font-family: "Futura PT";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+  }
+  .inputPopUpArea {
+    width: 97%;
+    height: 120px;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    background: #0f0f0f;
+    color: #c3c3c3;
+
+    font-family: "Futura PT";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .inputPopUp {
+    width: 97%;
+    height: 50px;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #c3c3c3;
+    margin-top: 16px;
+    font-family: "Futura PT";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    background: #0f0f0f;
+  }
+  .popupForm {
+    width: 97%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: var(--secondary-dark, #0f0f0f);
+    z-index: 9999;
+  }
+  .wrapPCont {
+    color: #c3c3c3;
+
+    font-family: "Futura PT";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+    text-transform: uppercase;
+    margin: 0;
+  }
+  .teamDs {
+    color: #6d6d6d;
+
+    text-align: center;
+    font-family: "Futura PT";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    margin-top: 24px;
+    width: 100%;
+    margin-bottom: 12px;
+  }
   .wrapFirstBlock {
     width: 100%;
     height: auto;
@@ -1116,6 +1201,18 @@
   }
 }
 @media only screen and (max-width: 700px) and (min-width: 479px) {
+  .popupForm {
+    width: 97%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background: var(--secondary-dark, #0f0f0f);
+    z-index: 9999;
+  }
   .wrapFirstBlock {
     width: 100%;
     height: auto;

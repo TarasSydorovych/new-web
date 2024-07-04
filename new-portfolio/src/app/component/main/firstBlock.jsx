@@ -2,7 +2,7 @@ import css from "./main.module.css";
 
 import asd from "../../img/dotEnv.png";
 import Image from "next/image";
-import mirt from "../../img/coneweq.webp";
+import mirt from "../../img/Coneweq.webp";
 import bol from "../../img/bolre.webp";
 import fre from "../../img/shibl.webp";
 import MouseD from "../../svg/mouseSvg.svg";
